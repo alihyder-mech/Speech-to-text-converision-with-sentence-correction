@@ -19,6 +19,13 @@ Navigate to the following directory from user directory
 ```bash
 cd acc_ind
 ```
+then activate the conda envrionment with command
+```ps
+cd conda activate acc-ind
+```
+Notice the change in prompt
+then to run the deepspeech model, use the following command. <br/>
+path to audio file can be provided at ```--audio``` flag
 ```bash
 deepspeech --model output_graph.pbmm --lm lm.binary --trie trie --audio sample-5.wav
 ```
